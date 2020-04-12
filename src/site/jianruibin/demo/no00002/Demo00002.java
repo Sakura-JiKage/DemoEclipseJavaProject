@@ -16,6 +16,7 @@ public class Demo00002 {
         // scan.nextLine() 只输入回车作为终止符。
         String id = scan.nextLine();
         System.out.println("原来你的身份证是"+(id.length())+"位的啊");
+        scan.close();
     }
 
 }
